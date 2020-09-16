@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body,h1,h2,h3,h4,h5,h6,p,span,input,button{
+	font-family: 'Playfair Display', serif;
+}
+
+/*header section css*/
+.header{
+	width: 100%;
+	display: flow-root;
+}
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+.menu{
+	width: 100%;
+	float: left;
+	padding: 30px 0;
+}
+.logo{
+	width: 20%;
+	float: left;
+	text-align: left;
+}
+.menubar{
+	width: 80%;
+	float: right;
+	text-align: right;
+
+}
+.menubar ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 52px;
+
+}
+a,a:hover{
+	text-decoration: none;
+}
+.menubar ul li a{
+	text-transform: uppercase;
+	color: #626262;
+}
+.menubar ul li a:hover{
+	color:black;
+}
+/*banner css starts*/
+.banner{
+	width: 100%;
+	display: flow-root;
+}
+.post{
+	padding: 56px;
+}
+.category{
+	text-transform: uppercase;
+	color: #b4ad9e;
+}
+.title{
+	color: #626262;
+	margin: 20px 0;
+}
+.post-desp{
+	color: #626262;
+	margin-bottom: 36px;
+}
+.comment{
+	text-transform: uppercase;
+	color: #b4ad9e;
+}
+/*gallery css starts*/
+.gallery{
+	width: 100%;
+	display: flow-root;
+	
+}
+.left{
+	width: 47%;
+	float: left;
+	padding-bottom: 70px;
+}
+.right{
+	width: 47%;
+	float: right;
+	padding-bottom: 70px;
+}
+.post .category{
+	margin-top: 25px;
+}
+/*subscribe css*/
+.subscribe{
+	width: 100%;
+	display: flow-root;
+	background:  #f0f0f0;
+	text-align: center;
+	padding: 60px 0;
+}
+.subscribe h1{
+	margin-bottom: 50px;
+}
+form input{
+	padding:10px 0;
+	width: 392px;
+	border: none;
+	background: transparent;
+	border-bottom: 1px solid black;
+}
+form input:focus{
+	outline: none;
+}
+form{
+	position: relative;
+}
+form i{
+	position: absolute;
+	top: 14px;
+    right: 379px;
+}
+form i:hover{
+	cursor: pointer;
+}
+.loadmore{
+	text-align: center;
+	margin: 10px;
+}
+.loadmore button{
+	border:none;
+	background:transparent;
+	padding: 10px 20px;
+	border: 1px solid black;
+	font-size: 25px;
+	transition: 0.5s;
+
+}
+.loadmore button:hover{
+	cursor: pointer;
+	transform: scale(1.1);
+	transition: 0.5s;
+}
+.bottom{
+	width: 100%;
+	background:  #f0f0f0;
+	display: flow-root;
+	margin-top: 50px;
+	padding: 45px 0;
+
+}
+.bot{
+	width: 100%;
+}
+.list-1{
+	float: left;
+	width: 40%;
+	margin-left: 30px
+}
+.list-1 ul li {
+	list-style: none;
+	display: inline-block;
+	margin-left: 20px;
+
+}
+.list-1 ul li a{
+	text-transform: uppercase;
+	
+	color: #626262;
+}
+.list-1 ul li a:hover{
+	color:black;
+}
+.icon{
+	float: right;
+	width:40%;
+	text-align: right;
+	 margin-right: 40px;
+}
+.icon ul li{
+	display: inline-block;
+	list-style: none;
+	margin-right: 20px;
+	color:#626262;
+
+
+}
+.icon ul li a{
+	color: #626262;
+}
